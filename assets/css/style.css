@@ -223,12 +223,276 @@ body{
 
 .description_text{
     color: #555;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 .color_container{
     padding: 10px 0;
 }
+
+.color_circle{
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 4px solid;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.color_circle[color="#080000"]{
+    background-color: #080000;
+    border-color: #4e4e50;
+}
+
+.color_circle[color="#bc4a38"]{
+    background-color: #bc4a38;
+    border-color: #d8928b;
+}
+
+.color_circle[color="#274322"]{
+    background-color: #274322;
+    border-color: #344f2d;
+}
+
+.color_circle[color="#d9a241"]{
+    background-color: #d9a241;
+    border-color: #c6923c;
+}
+
+.color_circle[color="#4facdd"]{
+    background-color: #4facdd;
+    border-color: #2c7db1;
+}
+
+.color_circle[color="#f3f4f8"]{
+    background-color: #f3f4f8;
+    border-color: #e7e9f1;
+}
+
+.color_circle[color="#282d3f"]{
+    background-color: #282d3f;
+    border-color: #0d1225;
+}
+
+.color.active{
+    border-color: #fff;
+    box-shadow: 0 0 10px .5px rgba(0,0,0,0.2);
+    transform: scale(1.1);
+}
+
+.size_container{
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.sizes{
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.size{
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #eee;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.size.active{
+    background-color: var(--primary);
+    color: #fff;
+    transition: .5s;
+}
+
+.buy_price{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price{
+    color: #333;
+    display: flex;
+    align-items: flex-start;
+}
+
+.price h1{
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.price i{
+    font-size: 1.4rem;
+    margin-right: 1px;
+}
+
+.buy{
+    padding: .7rem 1rem;
+    background-color: var(--primary);
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: .5s;
+}
+
+.buy:hover{
+    transform: scale(1.1);
+}
+
+.buy i{
+    margin-right: 2px;
+}
+
+@media (max-width: 1070px){
+    .vans{
+        width: 135%;
+    }
+}
+
+@media (max-width: 1000px){
+    .card{
+        flex-direction: column;
+        width: 100%;
+        box-shadow: 0 0 35px 1px rgba(0,0,0,0.2);
+    }
+
+    .card > div{
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .vans{
+        width: 100%;
+        transform: rotate(355deg) translateY(-50%) scaleX(-1);
+        left: -1px;
+        top: 55%;
+        right: 2%;
+    }
+
+    .vans_title{
+        top: 20%;
+        left: 5%;
+    }
+}
+
+
+@media (max-width: 600px){
+    .share{
+        width: 40px;
+        height: 40px;
+    }
+
+    .share i{
+        font-size: 1rem;
+        line-height: 40px;
+    }
+
+    .logo{
+        width: 70px;
+    }
+
+}
+
+@media (max-width: 490px){
+    .vans_title{
+        font-size: 7rem;
+    }
+
+    .vans div .big_title{
+        font-size: 1.3rem;
+    }
+
+    .small{
+        font-size: 1rem;
+    }
+
+    .traditional{
+        padding: 2px 6px;
+        font-size: .9rem;
+    }
+
+    .small_title{
+        font-size: .8rem;
+    }
+
+    .buy{
+        padding: .5rem .8rem;
+        font-size: .8rem;
+    }
+
+    .price h1{
+        font-size: .9rem;
+    }
+
+    .price i{
+        font-size: .9rem;
+    }
+
+    .size{
+        width: 30px;
+        height: 30px;
+        margin: 0 8px;
+        font-size: .9rem;
+        line-height: 30px;
+    }
+
+    .color_circle{
+        margin: 0 6px;
+        width: 20px;
+        height: 20px;
+        border-width: 4px;
+    }
+
+    .share{
+        width: 35px;
+        height: 35px;
+        top: 10px;
+        right: 10px;
+    }
+
+    .share i{
+        font-size: .8rem;
+        line-height: 35px;
+    }
+
+    .logo{
+        width: 60px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .info{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 400px){
+    .buy i{
+        display: none;
+    }
+
+    .container{
+        padding: 20px;
+    }
+}
+
+
+
+
 
 
 
