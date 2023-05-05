@@ -94,7 +94,7 @@ body{
     background-color: #2c7db1;
 }
 
-.color[color="#f3f4f8"]{
+.color[color="#c7c7c9"]{
     background-color: "#e7e9f1";
 }
 
@@ -266,8 +266,8 @@ body{
     border-color: #2c7db1;
 }
 
-.color_circle[color="#f3f4f8"]{
-    background-color: #f3f4f8;
+.color_circle[color="#c7c7c9"]{
+    background-color: #c7c7c9;
     border-color: #e7e9f1;
 }
 
