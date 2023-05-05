@@ -107,6 +107,7 @@ body{
     width: 50px;
     left: 20px;
     top: 20px;
+    height: 20px;
 }
 
 .share{
@@ -153,6 +154,7 @@ body{
     top: 106px;
     transform: scaleX(-1) rotate(20deg);
     transition: .5s;
+    filter: drop-shadow(3px 10px 8px #3333339c);
 }
 
 .vans.show{
