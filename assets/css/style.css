@@ -145,10 +145,12 @@ body{
 
 .vans{
     position: absolute;
-    width: 140%;
+    width: 120%;
     opacity: 0;
     bottom: 0;
     right: 0;
+    left: -102px;
+    top: 106px;
     transform: scaleX(-1) rotate(20deg);
     transition: .5s;
 }
