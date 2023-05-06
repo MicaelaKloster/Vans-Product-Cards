@@ -94,12 +94,12 @@ body{
     background-color: #2c7db1;
 }
 
-.color[color="#c7c7c9"]{
-    background-color: "#e7e9f1";
+.color[color="#737374"]{
+    background-color: #9d9d9e;
 }
 
 .color[color="#282d3f"]{
-    background-color: #0d1225;
+    background-color: #222b4a;
 }
 
 .logo{
@@ -137,7 +137,7 @@ body{
     position: absolute;
     top: 85px;
     left: 15px;
-    font-size: 11rem;
+    font-size: 9rem;
     text-transform: uppercase;
     line-height: .9;
     color: #fff;
@@ -266,9 +266,9 @@ body{
     border-color: #2c7db1;
 }
 
-.color_circle[color="#c7c7c9"]{
-    background-color: #c7c7c9;
-    border-color: #e7e9f1;
+.color_circle[color="#737374"]{
+    background-color: #737374;
+    border-color: #9d9d9e;
 }
 
 .color_circle[color="#282d3f"]{
@@ -333,7 +333,7 @@ body{
 }
 
 .price i{
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-right: 1px;
 }
 
@@ -376,10 +376,10 @@ body{
     }
 
     .vans{
-        width: 100%;
+        width: 90%;
         transform: rotate(355deg) translateY(-50%) scaleX(-1);
-        left: -1px;
-        top: 55%;
+        left: 29px;
+        top: 45%;
         right: 2%;
     }
 
